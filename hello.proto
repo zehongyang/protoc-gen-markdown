@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option go_package = "./pbs";
+import "class.proto";
+
+
+enum Types{
+    //haha
+    T_None = 0; //none
+    //hehe
+    T_Man = 1;//man
+    T_FMan = 2;//fman
+}
+
+//wefwef
+//enfijei
+
+
+//放开我培菲康颇为
+//Person
+message Person{
+    string name = 1; //name
+    string age = 2;//agefwefwejkfpoj jwefijwiojfoiwqijfoi
+    Class class = 3;
+    Types tps = 4;
+    repeated Student std = 5;
+    bool flag = 6;
+    bytes a = 7;
+    double b = 8;
+    map<string,string> c = 9;
+}
+
+
+message Student{
+    int64 num = 1;
+}
